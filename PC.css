@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+}
+.nav{
+    width: 366px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 108px;
+    float: left;
+}
+.mb_btn{
+    display: none;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(58, 61, 61);
+    background-image: url('https://assets.juksy.com/files/articles/41510/800x_100_w-567a9a48b9aa2.jpg');
+    background-position: 60% 50%;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.nav_btn{
+    text-align: center;
+}
+.btn{
+    display: block;
+    font-size: 24px;
+    line-height: 200%;
+}
+.body{
+    width: calc(100% - 366px);
+    height: 100vh;
+    /* background-color: rgb(214, 212, 212); */
+    float: left;
+    position: relative;
+}
+.img_area{
+    width: 960px;
+    height: 570px;
+    /* background-color: black; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: background-color 1s;
+}
+.mask:hover{
+    opacity: 0;
+}
+.box{
+    width: 33%;
+    height: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#box_x{
+    margin-right: 5px;
+    background-image: url('https://getez.info/uploads/1516153264-ScQwf.jpg');
+}
+#box_y{
+    width: calc(34% - 10px);
+    margin-right: 5px;
+    background-image: url('../school.jpg');
+}
+#box_z{
+    background-image: url('../playground.jpg');
+}
+
